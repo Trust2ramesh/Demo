@@ -1,0 +1,1380 @@
+# Copyright (C) 2024 WPDeveloper
+# This file is distributed under the same license as the SchedulePress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SchedulePress 5.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-scheduled-posts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-14T10:40:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: wp-scheduled-posts\n"
+
+#. Plugin Name of the plugin
+#: includes/Admin.php:382
+#: includes/Admin.php:384
+#: includes/Admin.php:387
+#: includes/Admin.php:421
+#: includes/Admin/Menu.php:34
+msgid "SchedulePress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Automate your content workflow with SchedulePress. Take a quick glance at your content planning with Schedule Calendar, Dashboard widget & Sitewide admin bar. Instantly share your posts on social media platforms such as Facebook, Twitter & many more."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.com"
+msgstr ""
+
+#: includes/Admin.php:94
+#: includes/Admin/Menu.php:35
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin.php:98
+msgid "Go Pro"
+msgstr ""
+
+#: includes/Admin.php:113
+msgid "Docs & FAQs"
+msgstr ""
+
+#: includes/Admin.php:142
+msgid "We hope you're enjoying SchedulePress! Could you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: includes/Admin.php:147
+msgid "Ok, you deserve it!"
+msgstr ""
+
+#: includes/Admin.php:151
+msgid "I already did"
+msgstr ""
+
+#: includes/Admin.php:158
+msgid "Maybe Later"
+msgstr ""
+
+#: includes/Admin.php:166
+msgid "I need help"
+msgstr ""
+
+#: includes/Admin.php:170
+msgid "Never show again"
+msgstr ""
+
+#: includes/Admin.php:192
+msgid "Enjoying <strong>SchedulePress</strong>? Why not check our <strong><a href=\"https://wpdeveloper.com/in/wp-scheduled-posts-pro\" target=\"_blank\">Pro version</a></strong> which will enable auto schedule, multi social account share and many more features! [<strong><a href=\"https://wpdeveloper.com/plugins/wp-scheduled-posts/\" target=\"_blank\">Learn More</a></strong>]"
+msgstr ""
+
+#: includes/Admin.php:280
+msgid "WPSP Logo"
+msgstr ""
+
+#: includes/Admin.php:296
+msgid "Close"
+msgstr ""
+
+#: includes/Admin.php:306
+msgid "Sorry, you can't schedule this <strong>%s</strong>. Please allow this post type from <a href=\"%s\" target=\"_blank\">SchedulePress settings</a>."
+msgstr ""
+
+#: includes/Admin.php:325
+msgid "Publish On"
+msgstr ""
+
+#: includes/Admin.php:341
+msgid "Next"
+msgstr ""
+
+#: includes/Admin.php:344
+msgid "Prev"
+msgstr ""
+
+#: includes/Admin.php:352
+msgid "Publish Post Immediately"
+msgstr ""
+
+#: includes/Admin.php:354
+#: includes/Social/InstantShare.php:225
+#: assets/gutenberg/social-share.js:646
+msgid "Share Now"
+msgstr ""
+
+#: includes/Admin.php:356
+#: includes/Admin.php:366
+msgid "Schedule"
+msgstr ""
+
+#: includes/Admin.php:357
+#: includes/Admin.php:359
+#: includes/Admin.php:368
+msgid "Update"
+msgstr ""
+
+#: includes/Admin.php:358
+#: includes/Admin.php:370
+msgid "Publish"
+msgstr ""
+
+#: includes/Admin.php:429
+#: includes/Admin.php:437
+#: includes/Admin.php:443
+msgid "Pro Feature"
+msgstr ""
+
+#: includes/Admin.php:430
+#: assets/gutenberg/utils/DummyProFeatures.js:37
+msgid "Unpublish On"
+msgstr ""
+
+#: includes/Admin.php:433
+#: includes/Admin.php:440
+#: includes/Admin.php:446
+msgid "PRO"
+msgstr ""
+
+#: includes/Admin.php:438
+#: assets/gutenberg/utils/DummyProFeatures.js:43
+msgid "Republish On"
+msgstr ""
+
+#: includes/Admin.php:444
+#: includes/Admin/Settings.php:137
+#: includes/Admin/Settings.php:1121
+#: includes/Admin/Settings.php:1142
+#: assets/gutenberg/utils/DummyProFeatures.js:51
+msgid "Advanced Schedule"
+msgstr ""
+
+#: includes/Admin.php:538
+#: includes/Social/InstantShare.php:83
+#: assets/gutenberg/social-share.js:435
+msgid "Choose Social Share Platform"
+msgstr ""
+
+#: includes/Admin.php:549
+#: includes/Admin.php:576
+#: includes/Admin.php:625
+#: includes/Admin.php:656
+#: includes/Admin.php:690
+#: includes/Admin.php:737
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Default"
+msgstr ""
+
+#: includes/Admin.php:550
+#: includes/Admin.php:577
+#: includes/Admin.php:626
+#: includes/Admin.php:657
+#: includes/Admin.php:691
+#: includes/Admin.php:738
+msgid "Custom"
+msgstr ""
+
+#: includes/Admin.php:564
+#: includes/Admin.php:590
+#: includes/Admin.php:639
+#: includes/Admin.php:670
+#: includes/Admin.php:677
+#: includes/Admin.php:725
+#: includes/Admin.php:752
+msgid "You may forget to add or enable profile/page from <a href=\"%s\">SchedulePress settings</a>. "
+msgstr ""
+
+#: includes/Admin.php:603
+#: assets/gutenberg/social-share.js:458
+#: assets/gutenberg/social-share.js:487
+#: assets/gutenberg/social-share.js:505
+#: assets/gutenberg/social-share.js:524
+#: assets/gutenberg/social-share.js:547
+#: assets/gutenberg/social-share.js:627
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:31
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:34
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:37
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:44
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Profile"
+msgstr ""
+
+#: includes/Admin.php:606
+#: assets/gutenberg/social-share.js:506
+#: assets/gutenberg/social-share.js:524
+#: assets/gutenberg/social-share.js:547
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:37
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Page"
+msgstr ""
+
+#: includes/Admin.php:632
+msgid "(Profile)"
+msgstr ""
+
+#: includes/Admin.php:663
+msgid "(Page)"
+msgstr ""
+
+#: includes/Admin.php:866
+msgid "Your post successfully updated"
+msgstr ""
+
+#: includes/Admin.php:1004
+msgid "Your post successfully published"
+msgstr ""
+
+#: includes/Admin.php:1015
+msgid "Your post id is empty"
+msgstr ""
+
+#: includes/Admin.php:1042
+msgid "Your post successfully scheduled"
+msgstr ""
+
+#: includes/Admin/Calendar.php:479
+#: includes/Admin/Calendar.php:643
+#: includes/Admin/Calendar.php:671
+msgid "Post type isn't allowed in Settings page."
+msgstr ""
+
+#: includes/Admin/Calendar.php:600
+msgid "Type is required."
+msgstr ""
+
+#: includes/Admin/Calendar.php:603
+#: includes/Admin/Calendar.php:625
+#: includes/Social/SocialProfile.php:72
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/Admin/Menu.php:57
+#: includes/Admin/Menu.php:60
+#: includes/Admin/Settings.php:297
+msgid "Calendar"
+msgstr ""
+
+#: includes/Admin/Notices/upgrade.php:31
+msgid "Heads up, Please backup before upgrade!"
+msgstr ""
+
+#: includes/Admin/Settings.php:84
+msgid "Layout"
+msgstr ""
+
+#: includes/Admin/Settings.php:106
+msgid "General"
+msgstr ""
+
+#: includes/Admin/Settings.php:122
+msgid "View All Features"
+msgstr ""
+
+#: includes/Admin/Settings.php:127
+msgid "Auto/Manual Scheduler"
+msgstr ""
+
+#: includes/Admin/Settings.php:132
+msgid "Missed Schedule Handler"
+msgstr ""
+
+#: includes/Admin/Settings.php:142
+msgid "Premium Support"
+msgstr ""
+
+#: includes/Admin/Settings.php:147
+#: includes/Admin/Settings.php:164
+msgid "Show Scheduled Posts in Dashboard Widget"
+msgstr ""
+
+#: includes/Admin/Settings.php:155
+msgid "General Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:171
+msgid "Show Scheduled Posts in Sitewide Admin Bar"
+msgstr ""
+
+#: includes/Admin/Settings.php:178
+msgid "Show Scheduled Posts in Admin Bar"
+msgstr ""
+
+#: includes/Admin/Settings.php:184
+msgid "Show Post Types:"
+msgstr ""
+
+#: includes/Admin/Settings.php:194
+msgid "Show Categories:"
+msgstr ""
+
+#: includes/Admin/Settings.php:204
+msgid "Allow users:"
+msgstr ""
+
+#: includes/Admin/Settings.php:215
+msgid "Calendar Default Schedule Time:"
+msgstr ""
+
+#: includes/Admin/Settings.php:223
+msgid "Custom item template for scheduled posts list in the admin bar:"
+msgstr ""
+
+#: includes/Admin/Settings.php:234
+msgid "Item template:"
+msgstr ""
+
+#: includes/Admin/Settings.php:236
+msgid "For item template use %TITLE% for the post title, %AUTHOR% for post author, and %DATE% for post scheduled date-time. You can use HTML tags with styles also."
+msgstr ""
+
+#: includes/Admin/Settings.php:243
+msgid "Title length:"
+msgstr ""
+
+#: includes/Admin/Settings.php:251
+msgid "Date format:"
+msgstr ""
+
+#: includes/Admin/Settings.php:260
+msgid "Show Publish Post Immediately Button"
+msgstr ""
+
+#: includes/Admin/Settings.php:262
+msgid "Immediately Publish Button only shows for Scheduled Post, after Enabling this option"
+msgstr ""
+
+#: includes/Admin/Settings.php:268
+msgid "Show Scheduled Posts in Elementor"
+msgstr ""
+
+#: includes/Admin/Settings.php:275
+msgid "Post Republish and Unpublish"
+msgstr ""
+
+#: includes/Admin/Settings.php:277
+#: includes/Admin/Settings.php:285
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/Admin/Settings.php:284
+msgid "Active Republish Social Share"
+msgstr ""
+
+#: includes/Admin/Settings.php:324
+#: includes/Admin/Settings.php:330
+msgid "Email Notify"
+msgstr ""
+
+#: includes/Admin/Settings.php:331
+msgid "To configure Email Notify Settings, check out this <a href=\"https://wpdeveloper.com/docs/email-notification-wordpress\" target=\"_blank\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:345
+msgid "Notify User when a post is \"Under Review\""
+msgstr ""
+
+#: includes/Admin/Settings.php:351
+#: includes/Admin/Settings.php:415
+msgid "Role:"
+msgstr ""
+
+#: includes/Admin/Settings.php:364
+#: includes/Admin/Settings.php:429
+msgid "Username:"
+msgstr ""
+
+#: includes/Admin/Settings.php:377
+#: includes/Admin/Settings.php:443
+msgid "Email:"
+msgstr ""
+
+#: includes/Admin/Settings.php:393
+msgid "Notify Author when a post is \"Rejected\""
+msgstr ""
+
+#: includes/Admin/Settings.php:408
+msgid "Notify User when a post is \"Scheduled\""
+msgstr ""
+
+#: includes/Admin/Settings.php:459
+msgid "Notify Author when a Scheduled Post is \"Published\""
+msgstr ""
+
+#: includes/Admin/Settings.php:466
+msgid "Notify Author when a post is \"Published\""
+msgstr ""
+
+#: includes/Admin/Settings.php:477
+#: includes/Admin/Settings.php:484
+msgid "Social Profile"
+msgstr ""
+
+#: includes/Admin/Settings.php:492
+#: includes/Admin/Settings.php:602
+#: includes/Social/InstantShare.php:94
+msgid "Facebook"
+msgstr ""
+
+#: includes/Admin/Settings.php:495
+msgid "You can enable/disable Facebook social share. To configure Facebook Social Profile, check out this <a target=\"_blank\" href=\"%s\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:498
+msgid "Copy this and paste it in your facebook app Callback url field."
+msgstr ""
+
+#: includes/Admin/Settings.php:499
+msgid "For details on Facebook configuration, check out this <a target=\"_blank\" href=\"%s\">Doc</a>.<br> <a target=\"_blank\" href=\"%s\">Click here</a> to Retrieve Your API Keys from your Facebook account."
+msgstr ""
+
+#: includes/Admin/Settings.php:507
+#: includes/Admin/Settings.php:714
+#: includes/Social/InstantShare.php:112
+msgid "Twitter"
+msgstr ""
+
+#: includes/Admin/Settings.php:510
+msgid "You can enable/disable Twitter social share. To configure Twitter Social Profile, check out this <a target=\"__blank\" href=\"%s\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:513
+msgid "Copy this and paste it in your twitter app Callback url field."
+msgstr ""
+
+#: includes/Admin/Settings.php:514
+msgid "For details on Twitter configuration, check out this <a href=\"%s\" target=\"_blank\">Doc</a>.<br> <a href=\"%s\" target=\"_blank\">Click here</a> to Retrieve Your API Keys from your Twitter account."
+msgstr ""
+
+#: includes/Admin/Settings.php:522
+#: includes/Admin/Settings.php:803
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/Admin/Settings.php:525
+msgid "You can enable/disable LinkedIn social share. To configure LinkedIn Social Profile, check out this <a target=\"__blank\" href=\"%s\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:528
+msgid "Copy this and paste it in your linkedin app Callback url field."
+msgstr ""
+
+#: includes/Admin/Settings.php:529
+msgid "For details on LinkedIn configuration, check out this <a href=\"%s\" target=\"_blank\">Doc</a>.<br> <a href=\"%s\" target=\"_blank\">Click here</a> to Retrieve Your API Keys from your LinkedIn account."
+msgstr ""
+
+#: includes/Admin/Settings.php:537
+#: includes/Admin/Settings.php:905
+#: includes/Social/InstantShare.php:157
+msgid "Pinterest"
+msgstr ""
+
+#: includes/Admin/Settings.php:540
+msgid "You can enable/disable Pinterest social share. To configure Pinterest Social Profile, check out this <a target=\"__blank\" href=\"%s\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:543
+msgid "Add this URL in the Redirect URLs field of your Pinterest app."
+msgstr ""
+
+#: includes/Admin/Settings.php:544
+msgid "For details on Pinterest configuration, check out this <a href=\"%s\" target=\"_blank\">Doc</a>.<br> <a href=\"%s\" target=\"_blank\">Click here</a> to Retrieve Your API Keys from your Pinterest account."
+msgstr ""
+
+#: includes/Admin/Settings.php:552
+#: includes/Admin/Settings.php:995
+#: includes/Social/InstantShare.php:208
+#: assets/gutenberg/social-share.js:608
+msgid "Instagram"
+msgstr ""
+
+#: includes/Admin/Settings.php:555
+msgid "You can enable/disable Instagram social share. To configure Instagram Social Profile, check out this <a target=\"__blank\" href=\"%s\">Doc</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:558
+msgid "Add this URL in the Redirect URLs field of your Instagram app."
+msgstr ""
+
+#: includes/Admin/Settings.php:559
+msgid "For details on Instagram configuration, check out this <a href=\"%s\" target=\"_blank\">Doc</a>.<br> <a href=\"%s\" target=\"_blank\">Click here</a> to Retrieve Your API Keys from your Instagram account."
+msgstr ""
+
+#: includes/Admin/Settings.php:572
+#: includes/Admin/Settings.php:579
+msgid "Social Templates"
+msgstr ""
+
+#: includes/Admin/Settings.php:609
+msgid "Facebook Status Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:611
+msgid "To configure the Facebook Status Settings, check out this <a target=\"_blank\" href=\"%s\">Doc.</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:624
+msgid "Facebook Meta Data"
+msgstr ""
+
+#: includes/Admin/Settings.php:625
+msgid "Add Open Graph metadata to your site head section and other social networks use this data when your pages are shared."
+msgstr ""
+
+#: includes/Admin/Settings.php:630
+#: includes/Admin/Settings.php:821
+msgid "Content Type:"
+msgstr ""
+
+#: includes/Admin/Settings.php:637
+#: includes/Admin/Settings.php:828
+msgid "Link"
+msgstr ""
+
+#: includes/Admin/Settings.php:641
+#: includes/Admin/Settings.php:832
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Settings.php:645
+msgid "Status + Link"
+msgstr ""
+
+#: includes/Admin/Settings.php:654
+#: includes/Admin/Settings.php:744
+#: includes/Admin/Settings.php:845
+#: includes/Admin/Settings.php:936
+#: includes/Admin/Settings.php:1017
+msgid "The categories you select will be used as tags."
+msgstr ""
+
+#: includes/Admin/Settings.php:655
+#: includes/Admin/Settings.php:745
+#: includes/Admin/Settings.php:846
+#: includes/Admin/Settings.php:935
+#: includes/Admin/Settings.php:1016
+msgid "Add Category as tags"
+msgstr ""
+
+#: includes/Admin/Settings.php:660
+#: includes/Admin/Settings.php:758
+#: includes/Admin/Settings.php:851
+#: includes/Admin/Settings.php:941
+#: includes/Admin/Settings.php:1022
+msgid "Content Source:"
+msgstr ""
+
+#: includes/Admin/Settings.php:667
+#: includes/Admin/Settings.php:765
+#: includes/Admin/Settings.php:858
+#: includes/Admin/Settings.php:948
+#: includes/Admin/Settings.php:1029
+msgid "Excerpt"
+msgstr ""
+
+#: includes/Admin/Settings.php:671
+#: includes/Admin/Settings.php:769
+#: includes/Admin/Settings.php:862
+#: includes/Admin/Settings.php:952
+#: includes/Admin/Settings.php:1033
+msgid "Content"
+msgstr ""
+
+#: includes/Admin/Settings.php:680
+#: includes/Admin/Settings.php:871
+#: includes/Admin/Settings.php:961
+#: includes/Admin/Settings.php:1042
+msgid "Status Template Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:689
+#: includes/Admin/Settings.php:880
+#: includes/Admin/Settings.php:970
+#: includes/Admin/Settings.php:1051
+msgid "Status Limit"
+msgstr ""
+
+#: includes/Admin/Settings.php:693
+msgid "Max: 63206"
+msgstr ""
+
+#: includes/Admin/Settings.php:699
+#: includes/Admin/Settings.php:788
+#: includes/Admin/Settings.php:890
+#: includes/Admin/Settings.php:980
+#: includes/Admin/Settings.php:1061
+msgid "How often to share a post?"
+msgstr ""
+
+#: includes/Admin/Settings.php:702
+#: includes/Admin/Settings.php:791
+#: includes/Admin/Settings.php:893
+#: includes/Admin/Settings.php:983
+#: includes/Admin/Settings.php:1064
+msgid "Keep zero for no limit"
+msgstr ""
+
+#: includes/Admin/Settings.php:722
+msgid "To configure the Twitter Tweet Settings, check out this <a target=\"_blank\" href=\"%s\">Doc.</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:723
+msgid "Twitter Tweet Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:735
+msgid "Tweet Template Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:736
+msgid "Define how to share the content on Twitter by setting the template. <strong>Default Structure: {title}{content}{url}{tags}</strong>"
+msgstr ""
+
+#: includes/Admin/Settings.php:753
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#: includes/Admin/Settings.php:778
+msgid "Tweet Limit"
+msgstr ""
+
+#: includes/Admin/Settings.php:782
+msgid "Max: 280"
+msgstr ""
+
+#: includes/Admin/Settings.php:810
+msgid "LinkedIn Status Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:811
+msgid "To configure the LinkedIn Status Settings, check out this <a target=\"_blank\" href=\"%s\">Doc.</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:836
+msgid "Media"
+msgstr ""
+
+#: includes/Admin/Settings.php:873
+msgid "Define how to share the content on LinkedIn by setting the template. <strong>Default Structure: {title}{content}{url}{tags}</strong>"
+msgstr ""
+
+#: includes/Admin/Settings.php:884
+msgid "Max: 1300"
+msgstr ""
+
+#: includes/Admin/Settings.php:912
+msgid "Pinterest Pin Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:913
+msgid "To configure the Pinterest Pin Settings, check out this <a target=\"_blank\" href=\"%s\">Doc.</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:926
+msgid "Add Image Link"
+msgstr ""
+
+#: includes/Admin/Settings.php:927
+msgid "Enable if you want to add the Image link on Pinterest. "
+msgstr ""
+
+#: includes/Admin/Settings.php:962
+msgid "Define how to share the content on Pinterest by setting the template. <strong>Default Structure: {title}{content}{url}{tags}</strong>"
+msgstr ""
+
+#: includes/Admin/Settings.php:974
+msgid "Max: 500"
+msgstr ""
+
+#: includes/Admin/Settings.php:1002
+msgid "Instagram Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:1003
+msgid "To configure the Instagram Settings, check out this <a target=\"_blank\" href=\"%s\">Doc.</a>"
+msgstr ""
+
+#: includes/Admin/Settings.php:1043
+msgid "Define how to share the content on Instagram by setting the template. <strong>Default Structure: {title}{content}{url}{tags}</strong>"
+msgstr ""
+
+#: includes/Admin/Settings.php:1055
+msgid "Max: 2100"
+msgstr ""
+
+#: includes/Admin/Settings.php:1082
+msgid "Scheduling Hub"
+msgstr ""
+
+#: includes/Admin/Settings.php:1143
+msgid "Enable to get options of scheduling a published post while updating it."
+msgstr ""
+
+#: includes/Admin/Settings.php:1153
+msgid "Get options to set the published post status when scheduling it. Keep the post published and the updated content will be published according to schedule, or move the post to Draft until it is published."
+msgstr ""
+
+#: includes/Admin/Settings.php:1161
+#: includes/Admin/Settings.php:1299
+msgid "Read Detailed Documentation:"
+msgstr ""
+
+#: includes/Admin/Settings.php:1165
+msgid "How To Configure SchedulerPress Advanced Schedule In Elementor?"
+msgstr ""
+
+#: includes/Admin/Settings.php:1170
+msgid "How To Configure SchedulerPress Advanced Schedule In Gutenberg?"
+msgstr ""
+
+#: includes/Admin/Settings.php:1175
+msgid "How to Configure SchedulePress Advanced Schedule in Classic Editor?"
+msgstr ""
+
+#: includes/Admin/Settings.php:1209
+msgid "Manage Schedule"
+msgstr ""
+
+#: includes/Admin/Settings.php:1257
+#: includes/Admin/Settings.php:1279
+msgid "Missed Schedule"
+msgstr ""
+
+#: includes/Admin/Settings.php:1280
+msgid "Enable to publish posts randomly"
+msgstr ""
+
+#: includes/Admin/Settings.php:1291
+msgid "WordPress might miss the schedule for a post for various reasons. Turn on this option to let SchedulePress take care of this and publish the missed schedule."
+msgstr ""
+
+#: includes/Admin/Settings.php:1303
+msgid "How To Manage The Missed Schedule Error In WordPress?"
+msgstr ""
+
+#: includes/Admin/Settings.php:1307
+msgid "How To Configure SchedulePress To Handle Missed Schedule Errors?"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:309
+msgid "We can't detect any plugin information. This is most probably because you have not included the code in the plugin main file."
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:712
+msgid "Thank you for installing our plugin. We would like to track its usage on your site. We don't record any sensitive data, only information regarding the WordPress environment and plugin settings, which we will use to help us make improvements to the plugin. Tracking is completely optional."
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:715
+msgid "Want to help make <strong>SchedulePress</strong> even more awesome? You can get a <strong>10% discount coupon</strong> for Pro upgrade if you allow. <a class=\"insights-data-we-collect\" href=\"#\">What we collect.</a>"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:723
+msgid "We collect non-sensitive diagnostic data and plugin usage information. Your site URL, WordPress & PHP version, plugins & themes and email address to send you the discount coupon. This data lets us make sure this plugin always stays compatible with the most popular plugins and themes. No spam, I promise."
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:726
+msgid "Sure, I'd like to help"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:727
+msgid "No Thanks"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:767
+msgid "Thank you for opting in to tracking. Would you like to receive occasional news about this plugin, including details of new features and special offers?"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:774
+msgid "Yes Please"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:775
+msgid "No Thank You"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:809
+msgid "Sorry to see you go"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:810
+msgid "Before you deactivate the plugin, would you quickly give us your reason for doing so?"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:813
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:815
+msgid "I found a better plugin"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:816
+msgid "Please share which plugin"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:818
+msgid "I couldn't get the plugin to work"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:819
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:820
+msgid "I have "
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:822
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:823
+msgid "Please share the reason"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:884
+msgid "Submitting form"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:1029
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: includes/Admin/WPDev/PluginUsageTracker.php:1029
+msgid "Just Deactivate"
+msgstr ""
+
+#: includes/Admin/WPDev/WPDevCoreInstaller.php:63
+msgid "You don't have permission to install the plugins"
+msgstr ""
+
+#: includes/Admin/WPDev/WPDevCoreInstaller.php:70
+msgid "You don't have set any slug and file name to install the plugins"
+msgstr ""
+
+#: includes/Assets.php:60
+msgid "Current Date"
+msgstr ""
+
+#: includes/Assets.php:61
+msgid "Future Date"
+msgstr ""
+
+#: includes/functions.php:205
+msgid "Publish future post immediately"
+msgstr ""
+
+#: includes/functions.php:213
+msgid "If you choose to publish this future post with the Future Date, it will be published immediately but the post’s date time will not set the current date rather it will be your scheduled future date time."
+msgstr ""
+
+#: includes/Social/Facebook.php:228
+#: includes/Social/Instagram.php:185
+#: includes/Social/Linkedin.php:181
+#: includes/Social/Pinterest.php:230
+#: includes/Social/Twitter.php:174
+msgid "Your max share post limit has been executed!!"
+msgstr ""
+
+#: includes/Social/InstantShare.php:25
+#: assets/gutenberg/social-share.js:390
+msgid "Social Share Settings"
+msgstr ""
+
+#: includes/Social/InstantShare.php:50
+#: assets/gutenberg/social-share.js:393
+msgid "Disable Social Share"
+msgstr ""
+
+#: includes/Social/InstantShare.php:132
+msgid "Linkedin"
+msgstr ""
+
+#: includes/Social/InstantShare.php:168
+msgid "Default Board"
+msgstr ""
+
+#: includes/Social/InstantShare.php:169
+msgid "Custom Board"
+msgstr ""
+
+#: includes/Social/InstantShare.php:222
+msgid "You may forget to add or enable social media from <a href=\"%s\">SchedulePress settings</a>. "
+msgstr ""
+
+#: includes/Social/InstantShare.php:325
+#: includes/Social/InstantShare.php:425
+#: includes/Social/SocialProfile.php:213
+#: includes/Social/SocialProfile.php:290
+#: includes/Social/SocialProfile.php:659
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/Social/InstantShare.php:330
+#: includes/Social/InstantShare.php:431
+#: includes/Social/SocialProfile.php:217
+#: includes/Social/SocialProfile.php:296
+#: includes/Social/SocialProfile.php:665
+msgid "You are unauthorized to access social profiles."
+msgstr ""
+
+#: includes/Social/InstantShare.php:412
+msgid "Failed!, You didn't select any social media."
+msgstr ""
+
+#: includes/Social/InstantShare.php:532
+msgid "Sorry, your requested platform integration is not added."
+msgstr ""
+
+#: includes/Social/Pinterest.php:269
+msgid "Your post has been successfully shared!"
+msgstr ""
+
+#: includes/Social/SocialProfile.php:25
+msgid "Multi Profile is a Premium Feature. To use this feature, Upgrade to Pro."
+msgstr ""
+
+#: includes/Social/Twitter.php:227
+msgid "Twitter Connection Problem. error code: "
+msgstr ""
+
+#: wp-scheduled-posts.php:131
+msgid "SchedulePress Free v5.0 needs SchedulePress Pro v5.0 for better performance. Please update SchedulePress Pro plugin to v5.0. Contact our <a href=\"%s\" target=\"_blank\">Support</a> if you need any assistance."
+msgstr ""
+
+#. translators: 1: `<h3>` opening tag, 2: `</h3>` closing tag, 3: PHP version. 4: Link opening tag, 5: Link closing tag.
+#: wp-scheduled-posts.php:315
+msgid "%1$sSchedulePress isn’t running because PHP is outdated.%2$s Update to PHP version %3$s and get back to creating!"
+msgstr ""
+
+#: assets/gutenberg/social-share.js:416
+msgid "Upload Social Share Banner"
+msgstr ""
+
+#: assets/gutenberg/social-share.js:449
+#: assets/gutenberg/social-share.js:618
+msgid "Content will be shared on all the activated social accounts"
+msgstr ""
+
+#: assets/gutenberg/social-share.js:450
+#: assets/gutenberg/social-share.js:619
+msgid "Specify your social account choice where you want to share the content"
+msgstr ""
+
+#: assets/gutenberg/utils/DummyProFeatures.js:18
+msgid "Auto Schedule"
+msgstr ""
+
+#: assets/gutenberg/utils/DummyProFeatures.js:25
+msgid "Manual Schedule"
+msgstr ""
+
+#: assets/gutenberg/utils/DummyProFeatures.js:35
+msgid "Scheduling Options"
+msgstr ""
+
+#: assets/gutenberg/utils/SelectedSocialProfileModal.js:40
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Board"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Changes Saved Successfully"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Opps!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "You Need SchedulePress PRO"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Check Pricing Plans"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "You won't be able to revert this!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "error"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Yes, delete it!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Your post will be moved to the Trash. You can restore it at any time."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Yes, Delete it!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Your posts has been deleted"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Failed!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Your post can't be deleted."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Your post has been moved to trash"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Something went wrong!!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "warning"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Yes, Save it!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Core Version:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Pro Version:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "upgrade-pro-img"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Manage License"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Supercharge your content schedule and ave a peace in mind"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Get Unlimited Features"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Supercharge your content schedule and have a peace in mind"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Get started spending some time with the documentation to get familiar with SchedulePress."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Contribute to SchedulePress"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "You can contribute to making SchedulePress better by reporting bugs"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Report A Bug"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Need Help?"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Stuck with something? Get help from the community WPDeveloper Forum or Facebook Community."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Get Support"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Show your Love"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "We love to have you in the SchedulePress family. We are making it more awesome every day."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Connect with"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Account"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "App credentials"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Connect your account"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Redirect URI:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Copied"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "OpenID Connect"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "App ID:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "API ID"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "App ID"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "App Secret:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "API Secret Key"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "App Secret"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Connect Your Account"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Multi Profile is a Premium Feature. To use this feature,"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Upgrade to PRO."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Pages:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Group:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Save"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "page-thumbnail"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Profile:"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "profile-thumbnail"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "It seems that there are no Pinterest Board associated to your Pinterest profile."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "It seems that there are no Instagram accounts associated to your Facebook profile."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "No Section"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Generating Token & Fetching User Data"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Group"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Please select an option"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Add New"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "on"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Enabling this profile will deactivate other profile automatically."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Yes, Enable it!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Deleting Advanced Scheduling will result in the loss of any changes made using this feature."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Your scheduled data has been deleted!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Delete Scheduled Data!"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Select Category"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "New Post has been Successfully Created"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Post has been Successfully Edited"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "New Draft Post has been Successfully Created"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Draft Post has been Successfully Edited"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+#: includes/Admin/Settings/assets/js/calendar.js:1
+msgid "Select Post Type"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Auto Scheduler"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Enabling Auto Scheduler will deactivate Manual Scheduler automatically."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Start Time"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "12:00 AM"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "End Time"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "11:45 PM"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Number of posts"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Manual Scheduler"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Enabling Manual Scheduler will deactivate Auto Scheduler automatically."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Add"
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Your License is Successfully Deactivated."
+msgstr ""
+
+#: includes/Admin/Settings/assets/js/admin.js:1
+msgid "Your License is Successfully Activated."
+msgstr ""
